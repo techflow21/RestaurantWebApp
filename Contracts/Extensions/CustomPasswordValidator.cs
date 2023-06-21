@@ -2,7 +2,7 @@
 
 namespace Contracts.Extensions
 {
-    public class CustomPasswordValidator<TUser> : IPasswordValidator<TUser> where TUser : class
+    /*public class CustomPasswordValidator<TUser> : IPasswordValidator<TUser> where TUser : class
     {
         public async Task<IdentityResult> ValidateAsync(UserManager<TUser> manager, TUser user, string password)
         {
@@ -15,5 +15,5 @@ namespace Contracts.Extensions
 
             return IdentityResult.Success;
         }
-    }
+    }*/
 }

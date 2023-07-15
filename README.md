@@ -1,5 +1,2 @@
 # Restaurant Web App
 
-
-
-
